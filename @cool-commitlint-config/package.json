@@ -1,0 +1,32 @@
+{
+  "name": "@cool/commitlint-config-recommended",
+  "version": "1.0.1",
+  "description": "Recommended commitlint config.",
+  "type": "commonjs",
+  "exports": "./index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "commitlintconfig"
+  ],
+  "author": "sunw",
+  "license": "ISC",
+  "publishConfig": {
+    "access": "public",
+    "registry": "http://192.168.100.90:4873"
+  },
+  "engines": {
+    "node": ">=18.17.0",
+    "pnpm": ">=8.7.0"
+  },
+  "packageManager": "pnpm@8.9.0",
+  "peerDependencies": {
+    "@commitlint/cli": "^17.7.1",
+    "@commitlint/config-conventional": "^17.7.0",
+    "@commitlint/cz-commitlint": "^17.7.1",
+    "inquirer": "8",
+    "@commitlint/types": "^17.4.4",
+    "commitizen": "^4.3.0"
+  }
+}
